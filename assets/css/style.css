@@ -1,0 +1,53 @@
+header {
+  background-color: #2E3232;
+  color: #FFF;
+}
+
+nav {
+  /*outline: 1px solid yellow;*/
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+}
+
+li {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  display: block;
+}
+ 
+a:hover {
+  color: #FFF;
+}
+.image {
+  background-image: url(../img/header.jpg);
+  height: 288px;
+  text-align: center;
+}
+
+.rock {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 50%;
+  width: 50%;
+}
+footer {
+  background:#2E3232;
+  color: #FFF;
+  height: 8em;
+  text-align: center;
+}
+/*img {
+  width: 100%;
+}
+*/
